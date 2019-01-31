@@ -7,8 +7,6 @@ import app from './express'
 //comment out before building for production
 devBundle.compile(app)
 
-
-
 app.get('/', (req, res) => {
   res.status(200).send(template())
 })
